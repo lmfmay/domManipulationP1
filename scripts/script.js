@@ -39,4 +39,5 @@ for (obj of menuLinks){
     topMenuEl.appendChild(link); // Append the new element to the topMenuEl element.
 }
 
+//PART 4 ADDING INTERACTIVITY
 
