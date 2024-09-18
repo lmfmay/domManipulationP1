@@ -14,8 +14,12 @@
 //PART 2 CREATING A MENU BAR
 // Next, create a blank menu bar that we can use to later add some interactivity to the page:
 // Select and cache the <nav id="top-menu"> element in a variable named topMenuEl.
-let topMenuEl = document.querySelector(`#top-menu`);
+let topMenuEl = document.getElementById(`top-menu`);
 // Set the height of the topMenuEl element to be 100%.
-
+topMenuEl.style.height = `100%`;
 // Set the background color of topMenuEl to the value stored in the --top-menu-bg CSS custom property.
+topMenuEl.style.backgroundColor = `var(--top-menu-bg)`;
 // Add a class of flex-around to topMenuEl.
+topMenuEl.classList.add(`flex-around`);
+
+//PART 3 ADDING MENU BUTTONS
